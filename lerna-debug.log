@@ -1,0 +1,21 @@
+0 silly argv {
+0 silly argv   _: [ 'clean' ],
+0 silly argv   lernaVersion: '6.6.1',
+0 silly argv   '$0': 'node_modules/lerna/dist/cli.js'
+0 silly argv }
+1 notice cli v6.6.1
+2 verbose rootPath /Users/zhuchentong/Projects/gopowerteam/lerna-monorepo
+3 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+4 error JSONError: Unexpected token "}" (0x7D) in JSON at position 428 while parsing near "...-dom\": \"18.1.0\",\n\n  },\n  \"devDependencie..." in apps/playground/package.json
+4 error
+4 error [0m [90m 19 |[39m     [32m"react-dom"[39m[33m:[39m [32m"18.1.0"[39m[33m,[39m[0m
+4 error [0m [90m 20 |[39m[0m
+4 error [0m[31m[1m>[22m[39m[90m 21 |[39m   }[33m,[39m[0m
+4 error [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+4 error [0m [90m 22 |[39m   [32m"devDependencies"[39m[33m:[39m {[0m
+4 error [0m [90m 23 |[39m     [32m"@remix-run/dev"[39m[33m:[39m [32m"^1.5.1"[39m[33m,[39m[0m
+4 error [0m [90m 24 |[39m     [32m"@remix-run/eslint-config"[39m[33m:[39m [32m"^1.5.1"[39m[33m,[39m[0m
+4 error
+4 error     at parseJson (/Users/zhuchentong/Projects/gopowerteam/lerna-monorepo/node_modules/.pnpm/parse-json@5.2.0/node_modules/parse-json/index.js:29:21)
+4 error     at parse (/Users/zhuchentong/Projects/gopowerteam/lerna-monorepo/node_modules/.pnpm/load-json-file@6.2.0/node_modules/load-json-file/index.js:15:9)
+4 error     at module.exports (/Users/zhuchentong/Projects/gopowerteam/lerna-monorepo/node_modules/.pnpm/load-json-file@6.2.0/node_modules/load-json-file/index.js:18:47)
