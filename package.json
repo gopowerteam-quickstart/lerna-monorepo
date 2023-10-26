@@ -7,15 +7,12 @@
     "dev": "lerna run dev --scope playground --include-dependencies",
     "exec": "node scripts/exec.js",
     "lint": "lerna run lint",
+    "clean": "lerna clean",
+    "commit": "git-cz",
+    "preinstall": "npx only-allow pnpm",
     "publish:patch": "lerna publish patch --no-private --yes",
     "publish:minor": "lerna publish minor --no-private --yes",
-    "publish:major": "lerna publish major --no-private --yes",
-    "release": "npm run build && npm run publish:patch",
-    "commit": "git-cz",
-    "lint:eslint": "eslint \"src/**/*.{vue,ts,tsx}\" --fix",
-    "precommit": "chmod +x .husky/*",
-    "clean": "lerna clean",
-    "preinstall": "npx only-allow pnpm"
+    "publish:major": "lerna publish major --no-private --yes"
   },
   "devDependencies": {
     "@commitlint/cli": "18.1.0",

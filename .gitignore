@@ -7,4 +7,3 @@ dist
 lerna-debug.log
 
 dist\
-build\
